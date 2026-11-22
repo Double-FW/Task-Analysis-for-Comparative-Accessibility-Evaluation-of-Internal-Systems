@@ -15,4 +15,4 @@ status: "editorial_guidance_for_local_adoption"
 3. Check [source coverage](Source_Coverage.md), [terminology](../Terminology_Alignment.md) and [rights](../NOTICE.md). Supply only authorised, minimised project material.
 4. Keep observations, reports, assumptions, estimates, synthetic examples and approvals distinct. Review actual evidence and human decisions for the requested task.
 
-These resources are MIT licensed under [LICENSE](../LICENSE). They do not implement a study, automated evaluator, secure evidence store, model or Hugging Face sync. The earlier source snapshots have been replaced by maintained routes; previous versions remain in Git history.
+These resources are MIT licensed under [LICENSE](../LICENSE). They do not implement a study, automated evaluator, secure evidence store or model. A separate [weekly sync workflow](../huggingface/SETUP.md) exports approved substantive content, including the activity file; its first successful upload must be checked separately. The earlier source snapshots have been replaced by maintained routes; previous versions remain in Git history.
