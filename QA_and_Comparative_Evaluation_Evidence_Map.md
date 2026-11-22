@@ -1,9 +1,19 @@
+---
+title: "Connecting technical QA and comparative work evaluation"
+version: "1.2.0"
+updated: "2026-11-22"
+owner: "Double FW Ltd"
+license: "MIT"
+language: "en-GB"
+status: "editorial_guidance_for_local_adoption"
+---
+
 # Connecting technical QA and comparative work evaluation
 
 This is an editorial application of the two resources. It connects questions and evidence without merging their methods, authority or result vocabularies. The QA framework organises tests and evidence; comparative task analysis examines actual work goals and system burden. Each adds information the other does not establish alone.
 
-https://github.com/Double-FW/QA_Accessibility_Testing
-https://github.com/Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems
+- [QA accessibility testing](https://github.com/Double-FW/QA_Accessibility_Testing)
+- [Comparative task methodology](TA%20Methodology.md)
 
 ## Route the question to the appropriate method
 
@@ -31,12 +41,12 @@ https://github.com/Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluat
 | Actual execution | Local execution ID, procedure, steps, expected and observed behaviour, raw output/notes and evidence location |
 | Task evidence | Direct observation, participant report, timing, errors, recovery, assistance, independence, effort, fatigue and privacy |
 | Findings | Technical results, task outcomes, comparative burden and employment-impact inference as separate fields |
-| Uncertainty | Not tested/blocked/cannot tell/tool error, missing perspectives, conflicting reports, sample and attribution limits |
+| Uncertainty | Preserve owning-method result states: unknown/not tested/not applicable, cannot tell or tool error where used. Keep task-blocked outcomes and open decisions separate; record sample, report and attribution limits. |
 | Remediation | System/process hypothesis, interim access, proposed permanent repair and receiving owner to confirm |
 | Verification | Affected technical tests plus complete-workflow and cumulative retest, with actual results |
 | Human decision | Scope, authorised owner, evidence and limits, unresolved questions, review trigger and decision actually made |
 
-Use explicit links such as “supports”, “partially covers” or “observed during this task”. Do not overload an AXE rule, CTL entry, local procedure, run and HTA node into one identifier. A QA status and an employment-impact conclusion answer different questions and should not replace one another.
+Use explicit links such as “supports”, “partially covers” or “observed during this task”. Do not overload an AXE rule, CTL entry, local procedure, run and HTA node into one identifier. A QA status and an employment-impact conclusion answer different questions and should not replace one another. Use [terminology alignment](Terminology_Alignment.md) for shared meanings and the [record template](Assessment_Record_Template.md) for a blank local structure; neither supplies actual execution evidence or a secure store.
 
 ## A practical sequence
 

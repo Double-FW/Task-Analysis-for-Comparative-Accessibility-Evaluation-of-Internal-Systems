@@ -1,26 +1,28 @@
 # Task Analysis for Comparative Accessibility Evaluation of Internal Systems: human-managed QA, testing and evaluation activities and prompts
 
-**Prepared:** 8 November 2026 · **Source revision:** `3a9410afd11fc8384decbf2dffe53a735a2270bc`  
-**Source:** [Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems](https://github.com/Double-FW/Task-Analysis-for-Comparative-Accessibility-Evaluation-of-Internal-Systems/tree/3a9410afd11fc8384decbf2dffe53a735a2270bc)  
+**Prepared:** 8 November 2026 · **Updated:** 22 November 2026
+
+**Source:** [maintained task-analysis guidance](../README.md), version 1.2.0. Record the actual Git revision and sections retrieved for each task; this is not a pinned historical snapshot.
+
 **Audience:** test leads, QA practitioners, researchers, accessibility specialists, engineers, service owners, procurement and HR/employee-experience partners.
 
 ## Where the repository is useful
 
 Use the methodology’s two stages—capture goals/tasks, then structure/analyse them through HTA—to examine how workplace systems impose barriers and cumulative burden. Compare functional outcomes, interaction paths, timing, cognitive demands, physical effort and recovery in context. Use the newer employment-impact safeguards to keep independence, privacy, fatigue, opportunity and blocked work visible.
 
-Evaluate systems and work design, not an employee’s capability or worth. The methodology’s mouse baseline, timing bands and scaled profile are proposed approaches, not validated universal acceptability limits or a calibrated score. Its direct-observation requirement and later AGENTS recognition of reported evidence need explicit interpretation, not silent reconciliation. AGENTS is draft pending review and records an older baseline mismatch; source-alignment-dependent claims remain provisional. Do not use this analysis for hiring, dismissal, pay, promotion or diagnosis inference.
+Evaluate systems and work design, not an employee’s capability or worth. A sighted mouse route is one possible reference. Historical timing bands are not acceptance rules, and dimensional profiles are not calibrated scores. Version 1.2.0 explicitly accepts reported evidence with its limits alongside authorised observation where feasible. AGENTS remains guidance for local adoption; matching source versions and a repository merge do not establish policy approval or study execution. Do not use this analysis for hiring, dismissal, pay, promotion or diagnosis inference.
 
 The activities below are an editorial application of the repository, not a claim that it already contains a complete organisational process. AI prepares scoped test plans, analytical options and evidence summaries. Testers establish actual results with appropriate competence; researchers involve affected people and preserve the limits of observation and reports. Engineering and service owners repair systems. Accountable humans retain release, procurement, exception, risk and employment decisions. Assign these responsibilities to actual people locally; the examples do not establish a new team or approval body.
 
 ## How to use the prompts
 
-1. Attach [RAG_Reference.md](RAG_Reference.md). For selective retrieval, use the source routes below and [Source_Coverage.md](Source_Coverage.md).
+1. Use [RAG_Reference.md](RAG_Reference.md) as navigation, then retrieve or attach the relevant actual source files. The index alone is insufficient. Include source authority, terminology and rights from S003, S006 and S009, using [Source_Coverage.md](Source_Coverage.md).
 2. Replace bracketed inputs with the actual project brief, artefacts and evidence. Supply the target task, audience, platform/setting, constraints and intended decision. Treat missing information as unknown.
-3. Use either example prompt for the activity. Both refer to this folder’s reference. Supply only appropriate project information; use anonymised research findings where possible.
+3. Use either example prompt for the activity. Both refer to actual maintained guidance retrieved through this folder’s reference; “RAG” means those source sections, not the index alone. Supply only appropriate project information; use anonymised research findings where possible.
 4. Require source ID, filename and original section citations; distinguish source guidance, local proposal, observed result and uncertainty. Ask for evidence requests where an artefact cannot be inspected.
 5. Review the result with the named human roles and record decisions. A prompt output is a draft test/evaluation aid, not implementation or evidence that a test ran. Do not defer disabled people’s involvement until final testing.
 
-**Reusable response contract:** “Use the attached RAG_Reference.md as the knowledge source. Cite source IDs, files and sections. Distinguish source statements, project evidence, recommendations and unknowns. Preserve applicable source identifiers. Do not invent research, capability, approvals or test results. Give a concrete test/evaluation artefact, trade-offs, evidence requests and decisions for the human team.”
+**Reusable response contract:** “Use RAG_Reference.md to locate the actual maintained sources; retrieve or attach their relevant sections before answering. Cite source IDs, files and sections. Distinguish source statements, project evidence, recommendations and unknowns. Preserve applicable source identifiers. Do not invent research, capability, approvals or test results. Give a concrete test/evaluation artefact, trade-offs, evidence requests and decisions for the human team.”
 
 ## Activity map
 
@@ -83,7 +85,7 @@ The activities below are an editorial application of the repository, not a claim
 
 ### Example prompt 1
 
-> Using the RAG, plan Stage 1 capture for [workflows]. Combine interviews/critical incidents, walkthroughs and authorised observation where feasible, recording alternatives, assistance, workarounds and enabling steps. Distinguish direct observations, reports and unknowns. Explain the source tension about mandatory observation and preserve reported evidence with limits rather than rejecting it.
+> Using the RAG, plan Stage 1 capture for [workflows]. Combine interviews/critical incidents, walkthroughs and authorised observation where feasible, recording alternatives, assistance, workarounds and enabling steps. Distinguish direct observations, reports and unknowns. Apply the reconciled evidence policy: preserve reported evidence with limits and do not demand observation as a prerequisite or expose participants to unnecessary known harm.
 
 ### Example prompt 2
 
@@ -187,7 +189,7 @@ The activities below are an editorial application of the repository, not a claim
 
 ### Example prompt 1
 
-> Using the RAG and [supplied task timings], compare equivalent outcomes with stated start/end events, units, assistance and context. Calculate absolute and relative delays only where the reference is valid and nonzero. Keep blocked/abandoned/untested tasks visible, never assign them zero time, and do not apply the source example bands as validated thresholds.
+> Using the RAG and [supplied task timings], compare equivalent outcomes with stated start/end events, units, assistance and context. Calculate absolute differences for comparable completed work and relative differences only where the reference is valid and positive. Keep blocked/abandoned/untested tasks visible, never assign them zero time, and do not apply the historical example bands as acceptance thresholds.
 
 ### Example prompt 2
 
@@ -295,10 +297,10 @@ The activities below are an editorial application of the repository, not a claim
 
 ### Example prompt 2
 
-> Audit [comparative study report] against the RAG. Find methodology baseline metadata treated as confirmed compatibility, a closed ticket treated as restored access and reported findings labelled direct observation. Return corrections, unresolved limits and next evaluation actions.
+> Audit [comparative study report] against the RAG. Find matching metadata or a repository merge treated as organisational approval, a closed ticket treated as restored access and reported findings labelled direct observation. Return corrections, unresolved limits and next evaluation actions.
 
 ## Evaluation evidence and decision record
 
-For each adopted result, record the project/task, source revision and sections used, observed test/evaluation question, barrier or outcome, chosen option and rejected alternatives, expected outcome, evidence available, assumptions, unresolved constraints, accountable person, next check and review trigger. Use actual names and dates when agreed; leave them unassigned when unknown. Record acceptance and residual risk only when the accountable person has made the decision.
+For each finding or recommendation, record the project/task, source revision and sections used, test/evaluation question, barrier or outcome, chosen option and rejected alternatives, expected outcome, evidence available, assumptions, unresolved constraints, accountable person, next check and review trigger. Use actual names and dates when agreed; leave them unassigned when unknown. Record acceptance and residual risk only when the accountable person has made the decision.
 
 Revisit the reference when repository sources change, a new platform or context is introduced, implementation changes invalidate assumptions, or user feedback exposes a barrier. Compare changed sources rather than silently replacing the basis of existing decisions.
